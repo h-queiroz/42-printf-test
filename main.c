@@ -221,6 +221,7 @@ int	main(void)
 
 	X = -000432;
 	printf("Test 30: UPPER HEX as sole argument, with NEGATIVE number and ZERO.\n");
+	og_return = ft_printf("MY: Should be \"-1B0\": \"%X\"\n", X);
 	my_return = ft_printf("MY: Should be \"-1B0\": \"%X\"\n", X);
 	test_returns(og_return, my_return);
 
