@@ -188,6 +188,7 @@ int	main(void)
 
 	x = -000432;
 	printf("Test 25: LOWER HEX as sole argument, with NEGATIVE number and ZERO.\n");
+	og_return =    printf("OG: Should be \"-1b0\": \"%x\"\n", x);
 	my_return = ft_printf("MY: Should be \"-1b0\": \"%x\"\n", x);
 	test_returns(og_return, my_return);
 
